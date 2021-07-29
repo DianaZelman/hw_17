@@ -39,9 +39,9 @@ function multipleDecorator() {
         if (map.has(`${a} - ${b}`)) {
             return map.get(`${a} - ${b}`);
         } 
-			map.set(`${a} - ${b}`, multiple(a, b));
-			return multiple(a, b);
-		};
+	    map.set(`${a} - ${b}`, multiple(a, b));
+	    return multiple(a, b);
+	};
     }
 
 const add = multipleDecorator();
