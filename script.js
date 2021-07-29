@@ -44,9 +44,9 @@ function multipleDecorator() {
 		};
     }
 
-	const add = multipleDecorator();
+const add = multipleDecorator();
 
-	console.log(add(2,2));
-	console.log(add(2,2));
-	console.log(add(2,4));
-	console.log(add(2,4));
+console.log(add(2,2));
+console.log(add(2,2));
+console.log(add(2,4));
+console.log(add(2,4));
